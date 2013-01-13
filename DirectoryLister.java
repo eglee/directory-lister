@@ -14,11 +14,11 @@ public class DirectoryLister
 	private int fileQueueSize;
 	
 	public DirectoryLister(File startingDirectory, int maxDepthAllowed)
-		{
-			this.startingDirectory = startingDirectory;
-			this.maxDepthAllowed = maxDepthAllowed;
-			this.fileQueueSize = 0;
-		}
+	{
+		this.startingDirectory = startingDirectory;
+		this.maxDepthAllowed = maxDepthAllowed;
+		this.fileQueueSize = 0;
+	}
 		
 	private Queue populateQueue(File directory)
 	{
