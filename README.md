@@ -9,38 +9,38 @@ To test, unzip the test data to your root folder and run the DirectoryListerDriv
 
 The test data directory and file hierarchy looks like this:
 
-C:.
-+---L0
-   |   G
-   |   text.txt
-   |   
-   \---L1
-       |   E
-       |   F
-       |   
-       +---L2a
-       \---L2b
-           +---L3a
-           |       A
-           |       
-           \---L3b
-               \---L4
-                       B
-                       C
-                       D
+      C:.
+      +---L0
+         |   G
+         |   text.txt
+         |   
+         \---L1
+            |   E
+            |   F
+            |   
+            +---L2a
+            \---L2b
+               +---L3a
+               |       A
+               |       
+               \---L3b
+                  \---L4
+                           B
+                           C
+                           D
                     
 Correct console output:
 
-A
+      A
 
-B
+      B
 
-C
+      C
 
-D
+      D
+   
+      E
 
-E
+      F
 
-F
-
-G
+      G
